@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <!-- Background -->
+  <rect width="1200" height="600" fill="#ECF0F1"/>
+  
+  <!-- Title -->
+  <text x="600" y="40" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#2C3E50">Ultra-Brief Alcohol Intervention in Japanese Primary Care</text>
+  
+  <!-- Panel 1: Study Design & Participants -->
+  <rect x="50" y="70" width="350" height="450" fill="white" stroke="#2C3E50" stroke-width="2"/>
+  <text x="225" y="100" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#2C3E50">Study Design & Participants</text>
+  
+  <!-- Panel 1 Content -->
+  <text x="70" y="140" font-family="Arial" font-size="14" fill="#2C3E50">• Pragmatic Cluster RCT</text>
+  <text x="70" y="170" font-family="Arial" font-size="14" fill="#2C3E50">• 40 primary care clinics in Japan</text>
+  <text x="70" y="200" font-family="Arial" font-size="14" fill="#2C3E50">• 1,133 outpatients with hazardous drinking</text>
+  <text x="70" y="230" font-family="Arial" font-size="14" fill="#2C3E50">• AUDIT-C ≥5 for men, ≥4 for women</text>
+  
+  <!-- Simple Japan map icon -->
+  <rect x="150" y="260" width="150" height="100" fill="#ECF0F1" stroke="#2C3E50" stroke-width="1"/>
+  <text x="225" y="310" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">[Japan Map Icon]</text>
+  
+  <!-- Participant icons -->
+  <text x="70" y="400" font-family="Arial" font-size="14" fill="#2C3E50">• Ultra-BI Group: n=531</text>
+  <text x="70" y="430" font-family="Arial" font-size="14" fill="#2C3E50">• SAO Group: n=602</text>
+  
+  <!-- Panel 2: Interventions Comparison -->
+  <rect x="425" y="70" width="350" height="450" fill="white" stroke="#2C3E50" stroke-width="2"/>
+  <text x="600" y="100" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#2C3E50">Interventions Comparison</text>
+  
+  <!-- Panel 2 Content -->
+  <text x="445" y="140" font-family="Arial" font-size="16" font-weight="bold" fill="#16A085">Ultra-BI Group:</text>
+  <text x="445" y="170" font-family="Arial" font-size="14" fill="#2C3E50">• AUDIT screening</text>
+  <text x="445" y="200" font-family="Arial" font-size="14" fill="#2C3E50">• Brief oral advice (1 minute)</text>
+  <text x="445" y="230" font-family="Arial" font-size="14" fill="#2C3E50">• Alcohol reduction leaflet</text>
+  
+  <!-- Ultra-BI icon -->
+  <rect x="500" y="250" width="100" height="100" fill="#ECF0F1" stroke="#2C3E50" stroke-width="1"/>
+  <text x="550" y="300" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">[Doctor Icon]</text>
+  
+  <text x="445" y="380" font-family="Arial" font-size="16" font-weight="bold" fill="#F39C12">SAO Group:</text>
+  <text x="445" y="410" font-family="Arial" font-size="14" fill="#2C3E50">• Simplified assessment only</text>
+  
+  <!-- SAO icon -->
+  <rect x="500" y="420" width="100" height="50" fill="#ECF0F1" stroke="#2C3E50" stroke-width="1"/>
+  <text x="550" y="450" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">[Form Icon]</text>
+  
+  <!-- Panel 3: Key Findings -->
+  <rect x="800" y="70" width="350" height="450" fill="white" stroke="#2C3E50" stroke-width="2"/>
+  <text x="975" y="100" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#2C3E50">Key Findings</text>
+  
+  <!-- Panel 3 Content - Primary Outcome -->
+  <text x="820" y="140" font-family="Arial" font-size="16" font-weight="bold" fill="#2C3E50">Primary Outcome: Total Alcohol Consumption</text>
+  
+  <!-- Bar chart for alcohol consumption -->
+  <rect x="850" y="160" width="100" height="120" fill="#16A085" stroke="#2C3E50" stroke-width="1"/>
+  <rect x="1000" y="160" width="100" height="117" fill="#F39C12" stroke="#2C3E50" stroke-width="1"/>
+  
+  <text x="900" y="300" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">Ultra-BI</text>
+  <text x="900" y="320" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">1046.9g/4 weeks</text>
+  
+  <text x="1050" y="300" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">SAO</text>
+  <text x="1050" y="320" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">1019.0g/4 weeks</text>
+  
+  <text x="975" y="350" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#2C3E50">No significant difference</text>
+  <text x="975" y="370" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">Difference: 27.8g/4 weeks (95% CI -149.7 to 205.4)</text>
+  <text x="975" y="390" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">Bayes factor: 0.08±0.25</text>
+  
+  <!-- Secondary Outcome -->
+  <text x="820" y="420" font-family="Arial" font-size="16" font-weight="bold" fill="#2C3E50">Secondary Outcome: Readiness to Change</text>
+  <text x="975" y="450" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#16A085">Significant improvement</text>
+  <text x="975" y="470" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">12 weeks: Hedge's g 0.21 (95% CI 0.10 to 0.33)</text>
+  <text x="975" y="490" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">24 weeks: Hedge's g 0.16 (95% CI 0.05 to 0.28)</text>
+  
+  <!-- Footer -->
+  <text x="600" y="550" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#2C3E50">Conclusion: Ultra-BI improves motivation to change but not actual alcohol consumption</text>
+  <text x="600" y="580" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">Ryuhei So, et al. | medRxiv 2024.12.27.24319613</text>
+</svg>
