@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effectiveness of screening and ultra-brief alcohol intervention in primary care</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e8f1f8;
+            color: #2C3E50;
+        }
+        .container {
+            width: 1024px;
+            height: 1024px;
+            margin: 0 auto;
+            position: relative;
+        }
+        .header {
+            background-color: #2073ac;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            height: 80px;
+            box-sizing: border-box;
+        }
+        .section {
+            background-color: white;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            margin: 20px;
+            padding: 20px;
+        }
+        .section-title {
+            color: #2073ac;
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        .section-title span {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        .summary-box {
+            display: flex;
+            justify-content: space-between;
+        }
+        .outcome-box {
+            background-color: #f0f7fc;
+            border: 1px solid #2073ac;
+            border-radius: 5px;
+            padding: 10px;
+            width: 45%;
+            display: flex;
+            align-items: center;
+        }
+        .outcome-indicator {
+            width: 20px;
+            height: 3px;
+            margin-right: 10px;
+        }
+        .red-indicator {
+            background-color: #e74c3c;
+        }
+        .green-indicator {
+            background-color: #27ae60;
+        }
+        .outcome-text {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .red-text {
+            color: #e74c3c;
+        }
+        .green-text {
+            color: #27ae60;
+        }
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        .table th {
+            background-color: #2073ac;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 16px;
+        }
+        .table td {
+            background-color: white;
+            border: 1px solid #cccccc;
+            padding: 10px;
+            text-align: center;
+            font-size: 14px;
+        }
+        .comparison-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+        .comparison-box {
+            width: 48%;
+            border-radius: 5px;
+            padding: 10px;
+            color: white;
+            text-align: center;
+        }
+        .ultra-bi {
+            background-color: #27ae60;
+        }
+        .sao {
+            background-color: #e67e22;
+        }
+        .comparison-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .comparison-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .icon-circle {
+            background-color: white;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+        }
+        .outcomes-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .outcome-graph {
+            width: 48%;
+            margin-top: 15px;
+        }
+        .outcome-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            margin-top: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #cccccc;
+        }
+        .comparison-image {
+            width: 100%;
+            max-height: 150px;
+            object-fit: contain;
+        }
+        
+        /* Make it responsive */
+        @media (max-width: 1024px) {
+            .container {
+                width: 100%;
+                height: auto;
+            }
+            .summary-box, .comparison-container, .outcomes-container {
+                flex-direction: column;
+            }
+            .outcome-box, .comparison-box, .outcome-graph {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header with Title -->
+        <div class="header">
+            <h1 style="font-size: 22px; margin: 0;">Effectiveness of screening and ultra-brief alcohol intervention in primary care:</h1>
+            <h2 style="font-size: 20px; margin: 5px 0 0 0;">a pragmatic cluster randomised controlled trial</h2>
+        </div>
+
+        <!-- Summary Section -->
+        <div class="section">
+            <div class="section-title">
+                <span>❝</span> Summary
+            </div>
+            <div class="summary-box">
+                <div class="outcome-box">
+                    <div class="outcome-indicator red-indicator"></div>
+                    <div class="outcome-text red-text">No difference</div>
+                    <div>in alcohol consumption at 24 weeks</div>
+                </div>
+                <div class="outcome-box">
+                    <div class="outcome-indicator green-indicator"></div>
+                    <div class="outcome-text green-text">Improvement</div>
+                    <div>in motivation to change drinking habits</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Study Design Section -->
+        <div class="section">
+            <div class="section-title">
+                <span>📋</span> Study design
+            </div>
+            <table class="table">
+                <tr>
+                    <th>Design</th>
+                    <th>Randomisation</th>
+                    <th>Risk of Bias</th>
+                </tr>
+                <tr>
+                    <td>Pragmatic cluster RCT</td>
+                    <td>Clinic-level randomization</td>
+                    <td>No concealment, participant-blinded</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Population Section -->
+        <div class="section">
+            <div class="section-title">
+                <span>👥</span> Population
+            </div>
+            <table class="table">
+                <tr>
+                    <th>Setting</th>
+                    <th>Participants</th>
+                    <th>Sample Size</th>
+                </tr>
+                <tr>
+                    <td>40 primary care clinics in Japan</td>
+                    <td>Outpatients with AUDIT-C &ge;5 for men &amp; &ge;4 for women</td>
+                    <td>Ultra-BI: n=531 | SAO: n=602</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Comparison Section -->
+        <div class="section">
+            <div class="section-title">
+                <span>⚖️</span> Comparison
+            </div>
+            <div class="comparison-container">
+                <div class="comparison-box ultra-bi">
+                    <div class="comparison-title">Ultra-BI</div>
+                    <div class="comparison-content">
+                        <div class="icon-circle">
+                            <span style="font-size: 20px; color: #27ae60;">👨‍⚕️</span>
+                        </div>
+                        <div>AUDIT screening + brief oral advice + leaflet</div>
+                    </div>
+                    <img src="https://i.imgur.com/Yd8Yvqm.png" alt="Ultra-BI Intervention" class="comparison-image">
+                </div>
+                <div class="comparison-box sao">
+                    <div class="comparison-title">SAO</div>
+                    <div class="comparison-content">
+                        <div class="icon-circle">
+                            <span style="font-size: 20px; color: #e67e22;">📝</span>
+                        </div>
+                        <div>AUDIT-C screening only</div>
+                    </div>
+                    <img src="https://i.imgur.com/Yd8Yvqm.png" alt="SAO Intervention" class="comparison-image">
+                </div>
+            </div>
+        </div>
+
+        <!-- Outcomes Section -->
+        <div class="section">
+            <div class="section-title">
+                <span>📊</span> Outcomes
+            </div>
+            <div class="outcomes-container">
+                <div class="outcome-graph">
+                    <div class="outcome-title">Primary: Total Alcohol Consumption (24 weeks)</div>
+                    <img src="https://i.imgur.com/Yd8Yvqm.png" alt="Primary Outcome Graph">
+                </div>
+                <div class="outcome-graph">
+                    <div class="outcome-title">Secondary: Readiness to Change (24 weeks)</div>
+                    <img src="https://i.imgur.com/Yd8Yvqm.png" alt="Secondary Outcome Graph">
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            Ryuhei So, et al. | medRxiv 2024.12.27.24319613
+        </div>
+    </div>
+</body>
+</html>
