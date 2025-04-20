@@ -27,13 +27,15 @@ The visual abstract summarizes a pragmatic cluster randomized controlled trial t
 
 ## Design Approach
 
-The visual abstract follows CDC best practices with a three-panel horizontal design:
+The visual abstract follows the BMJ visual abstract style with structured sections:
 
-1. **Panel 1**: Study Design & Participants
-2. **Panel 2**: Interventions Comparison
-3. **Panel 3**: Key Findings
+1. **Summary**: Key findings of the study
+2. **Study Design**: Type of study and setting
+3. **Population**: Participant information
+4. **Comparison**: Intervention groups (Ultra-BI vs SAO)
+5. **Outcomes**: Primary and secondary outcomes with statistical results
 
-The design uses a professional color scheme with medical blue (#2C3E50), teal green (#16A085), and soft orange (#F39C12) on a light gray background (#ECF0F1).
+The design uses a professional color scheme with BMJ blue (#2073ac), teal green (#16A085), and soft orange (#F39C12) on a white background with light gray section panels.
 
 ## Attribution
 
