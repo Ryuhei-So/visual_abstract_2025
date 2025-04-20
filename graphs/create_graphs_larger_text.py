@@ -21,7 +21,7 @@ groups = ['Ultra-BI', 'SAO']
 values = [1046.9, 1019.0]
 se = [90.0, 90.0]  # Estimated from the paper's CI
 
-ax.text(0.5, 0.95, 'Difference: 27.8g/4 weeks (95% CI -149.7 to 205.4), p=0.76', 
+ax.text(0.5, 0.90, 'Difference: 27.8g/4 weeks (95% CI -149.7 to 205.4), p=0.76', 
         ha='center', va='center', transform=ax.transAxes, fontsize=16)  # Increased from 12
 
 x_pos = np.arange(len(groups))
@@ -56,7 +56,7 @@ groups = ['Ultra-BI', 'SAO']
 values = [2.1, 1.9]  # Absolute values
 se = [0.05, 0.05]  # Estimated from the paper's CI
 
-ax.text(0.5, 0.95, 'Difference: 0.2 (95% CI 0.1 to 0.3), p=0.005', 
+ax.text(0.5, 0.90, 'Difference: 0.2 (95% CI 0.1 to 0.3), p=0.005', 
         ha='center', va='center', transform=ax.transAxes, fontsize=16)  # Increased from 12
 
 x_pos = np.arange(len(groups))
