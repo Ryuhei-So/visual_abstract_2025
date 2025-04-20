@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effectiveness of screening and ultra-brief alcohol intervention in primary care</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e8f1f8;
+            color: #333;
+            line-height: 1.4;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 10px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            background-color: #2073ac;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            font-size: 22px;
+            margin: 0;
+            font-weight: 600;
+        }
+        .header h2 {
+            font-size: 18px;
+            margin: 5px 0 0 0;
+            font-weight: 400;
+            font-style: italic;
+        }
+        .section {
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+        }
+        .section-row {
+            display: flex;
+            align-items: flex-start;
+        }
+        .section-icon {
+            font-size: 24px;
+            margin-right: 10px;
+            color: #2073ac;
+            min-width: 30px;
+            text-align: center;
+        }
+        .section-title {
+            color: #2073ac;
+            font-size: 18px;
+            font-weight: 600;
+            margin-right: 15px;
+            min-width: 100px;
+        }
+        .section-content {
+            flex: 1;
+            font-size: 16px;
+        }
+        .summary-text {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .design-content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .design-item {
+            width: 100%;
+            margin-bottom: 5px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .design-item:last-child {
+            border-bottom: none;
+        }
+        .comparison-layout {
+            display: flex;
+            margin-top: 10px;
+        }
+        .comparison-side {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .comparison-header {
+            padding: 10px;
+            color: white;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .ultra-bi-header {
+            background-color: #27ae60;
+        }
+        .sao-header {
+            background-color: #e67e22;
+        }
+        .comparison-stats {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            background-color: #f9f9f9;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .icon-circle {
+            background-color: #f0f0f0;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+        }
+        .comparison-image {
+            flex: 1;
+            padding: 10px;
+            background-color: white;
+            text-align: center;
+        }
+        .comparison-image img {
+            max-width: 100%;
+            height: 180px;
+            object-fit: contain;
+        }
+        .outcome-graph {
+            width: 100%;
+            max-height: 350px;
+            object-fit: contain;
+        }
+        .outcome-container {
+            display: flex;
+            margin-top: 10px;
+        }
+        .outcome-graph-container {
+            flex: 2;
+            text-align: center;
+        }
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #777;
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header with Title -->
+        <div class="header">
+            <h1>Effectiveness of screening and ultra-brief alcohol intervention in primary care:</h1>
+            <h2>a pragmatic cluster randomised controlled trial</h2>
+        </div>
+
+        <!-- Summary Section -->
+        <div class="section">
+            <div class="section-row">
+                <div class="section-icon">❝</div>
+                <div class="section-title">Summary</div>
+                <div class="section-content summary-text">
+                    Ultra-BI did not significantly reduce alcohol consumption compared to SAO.
+                </div>
+            </div>
+        </div>
+
+        <!-- Study Design & Population Section -->
+        <div class="section">
+            <div class="section-row">
+                <div class="section-icon">📋</div>
+                <div class="section-title">Study Design<br>&amp; Population</div>
+                <div class="section-content">
+                    <div class="design-item">Pragmatic cluster RCT</div>
+                    <div class="design-item">No allocation concealment / Participants blinded to study hypothesis</div>
+                    <div class="design-item">Outpatients with AUDIT-C score ≥5 for men OR ≥4 for women</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Comparison Section -->
+        <div class="section">
+            <div class="section-row">
+                <div class="section-icon">⚖️</div>
+                <div class="section-title">Comparison</div>
+            </div>
+            
+            <!-- New side-by-side layout based on the image -->
+            <div class="outcome-container">
+                <div class="comparison-side">
+                    <div class="comparison-header ultra-bi-header">Ultra-Brief Intervention (Ultra-BI)</div>
+                    <div class="comparison-stats">
+                        <div class="icon-circle">
+                            <span style="font-size: 16px; color: #27ae60;">👨‍⚕️</span>
+                        </div>
+                        21 clinics, 531 patients
+                    </div>
+                    <div class="comparison-image">
+                        <img src="images/ultra_bi_illustration.png" alt="Ultra-BI Intervention">
+                    </div>
+                </div>
+                
+                <div class="outcome-graph-container">
+                    <img src="images/primary_outcome.png" alt="Primary Outcome Graph" class="outcome-graph">
+                </div>
+                
+                <div class="comparison-side">
+                    <div class="comparison-header sao-header">Simplified Assessment Only (SAO)</div>
+                    <div class="comparison-stats">
+                        <div class="icon-circle">
+                            <span style="font-size: 16px; color: #e67e22;">📝</span>
+                        </div>
+                        19 clinics, 602 patients
+                    </div>
+                    <div class="comparison-image">
+                        <img src="images/sao_illustration.png" alt="SAO Intervention">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Ryuhei So, et al. | medRxiv 2024.12.27.24319613 | Visual Abstract Competition 2025</p>
+        </div>
+    </div>
+</body>
+</html>

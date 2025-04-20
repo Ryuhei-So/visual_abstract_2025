@@ -7,6 +7,7 @@ This repository contains the visual abstract for the research paper "Effectivene
 - `assets/`: Contains the original research paper and icons used in the visual abstract
 - `planning/`: Contains the planning documents for the visual abstract
 - `design/`: Contains the mockup and draft designs for the visual abstract
+- `build/`: Contains the final HTML version of the visual abstract for deployment
 
 ## Visual Abstract Summary
 
@@ -30,12 +31,22 @@ The visual abstract summarizes a pragmatic cluster randomized controlled trial t
 The visual abstract follows the BMJ visual abstract style with structured sections:
 
 1. **Summary**: Key findings of the study
-2. **Study Design**: Type of study and setting
-3. **Population**: Participant information
-4. **Comparison**: Intervention groups (Ultra-BI vs SAO)
-5. **Outcomes**: Primary and secondary outcomes with statistical results
+2. **Study Design & Population**: Type of study, blinding, and participant information
+3. **Comparison**: Side-by-side comparison of intervention groups (Ultra-BI vs SAO)
+4. **Primary Outcome**: Graph showing alcohol consumption results at 24 weeks
 
-The design uses a professional color scheme with BMJ blue (#2073ac), teal green (#16A085), and soft orange (#F39C12) on a white background with light gray section panels.
+The design uses a professional color scheme with BMJ blue (#2073ac), green (#27ae60) for Ultra-BI, and orange (#e67e22) for SAO on a white background with minimal spacing for a compact, information-dense layout.
+
+## Final Design
+
+The final visual abstract is implemented as an HTML document with responsive design. Key features include:
+
+- Clean, compact layout following BMJ visual abstract style
+- Side-by-side comparison of interventions with the outcome graph in the center
+- Minimal text focusing on the key message: "Ultra-BI did not significantly reduce alcohol consumption compared to SAO"
+- Responsive design that works on various screen sizes
+
+The HTML implementation allows for better accessibility and responsive viewing across different devices compared to static image formats.
 
 ## Attribution
 
@@ -44,3 +55,4 @@ The visual abstract was created for submission to the Visual Abstract Competitio
 ## References
 
 - Original research paper: [medRxiv 2024.12.27.24319613](https://www.medrxiv.org/content/10.1101/2024.12.27.24319613v1.full-text)
+- BMJ Visual Abstracts: [BMJ Visual Abstracts](https://www.bmj.com/content/bmj-visual-abstracts)
