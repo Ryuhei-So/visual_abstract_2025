@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#ffffff"/>
+  
+  <!-- BMJ Header with Title -->
+  <rect x="0" y="0" width="1024" height="80" fill="#2073ac"/>
+  <text x="20" y="50" font-family="Arial" font-size="28" font-weight="bold" fill="#ffffff">the bmj</text>
+  <text x="150" y="50" font-family="Arial" font-size="24" fill="#ffffff">Visual abstract</text>
+  <text x="512" y="50" font-family="Arial" font-size="22" font-weight="bold" text-anchor="middle" fill="#ffffff">
+    Effectiveness of screening and ultra-brief alcohol intervention in primary care
+  </text>
+  
+  <!-- Summary Section -->
+  <rect x="40" y="100" width="944" height="120" rx="5" ry="5" fill="#f0f0f0" stroke="#cccccc" stroke-width="1"/>
+  
+  <!-- Summary Icon -->
+  <circle cx="70" cy="130" r="20" fill="#2073ac"/>
+  <text x="70" y="137" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#ffffff">?</text>
+  
+  <text x="100" y="130" font-family="Arial" font-size="20" font-weight="bold" fill="#2073ac">
+    <tspan x="100" y="130">Summary</tspan>
+  </text>
+  <text x="100" y="160" font-family="Arial" font-size="16" fill="#2C3E50">
+    <tspan x="100" y="160">Ultra-brief intervention (Ultra-BI) improved motivation to change drinking habits</tspan>
+    <tspan x="100" y="185">but did not significantly reduce alcohol consumption compared to simplified assessment only (SAO)</tspan>
+  </text>
+  
+  <!-- Study Design Section -->
+  <rect x="40" y="240" width="944" height="140" rx="5" ry="5" fill="#f0f0f0" stroke="#cccccc" stroke-width="1"/>
+  
+  <!-- Study Design Icon -->
+  <circle cx="70" cy="270" r="20" fill="#2073ac"/>
+  <text x="70" y="277" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#ffffff">⚙</text>
+  
+  <text x="100" y="270" font-family="Arial" font-size="20" font-weight="bold" fill="#2073ac">
+    <tspan x="100" y="270">Study design</tspan>
+  </text>
+  
+  <!-- Study Design Columns -->
+  <rect x="100" y="290" width="250" height="30" rx="5" ry="5" fill="#d1e8f7" stroke="#cccccc" stroke-width="1"/>
+  <text x="225" y="312" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#2C3E50">Design</text>
+  
+  <rect x="360" y="290" width="250" height="30" rx="5" ry="5" fill="#d1e8f7" stroke="#cccccc" stroke-width="1"/>
+  <text x="485" y="312" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#2C3E50">Randomization</text>
+  
+  <rect x="620" y="290" width="250" height="30" rx="5" ry="5" fill="#d1e8f7" stroke="#cccccc" stroke-width="1"/>
+  <text x="745" y="312" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#2C3E50">Risk of Bias</text>
+  
+  <rect x="100" y="320" width="250" height="40" rx="0" ry="0" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+  <text x="225" y="345" font-family="Arial" font-size="14" text-anchor="middle" fill="#2C3E50">Pragmatic cluster randomised controlled trial</text>
+  
+  <rect x="360" y="320" width="250" height="40" rx="0" ry="0" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+  <text x="485" y="345" font-family="Arial" font-size="14" text-anchor="middle" fill="#2C3E50">Clinic-level randomization</text>
+  
+  <rect x="620" y="320" width="250" height="40" rx="0" ry="0" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+  <text x="745" y="345" font-family="Arial" font-size="14" text-anchor="middle" fill="#2C3E50">Concealed allocation, unblinded</text>
+  
+  <!-- Population Section -->
+  <rect x="40" y="400" width="944" height="140" rx="5" ry="5" fill="#f0f0f0" stroke="#cccccc" stroke-width="1"/>
+  
+  <!-- Population Icon -->
+  <circle cx="70" cy="430" r="20" fill="#2073ac"/>
+  <text x="70" y="437" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#ffffff">👥</text>
+  
+  <text x="100" y="430" font-family="Arial" font-size="20" font-weight="bold" fill="#2073ac">
+    <tspan x="100" y="430">Population</tspan>
+  </text>
+  
+  <!-- Population Columns -->
+  <rect x="100" y="450" width="250" height="30" rx="5" ry="5" fill="#d1e8f7" stroke="#cccccc" stroke-width="1"/>
+  <text x="225" y="472" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#2C3E50">Setting</text>
+  
+  <rect x="360" y="450" width="250" height="30" rx="5" ry="5" fill="#d1e8f7" stroke="#cccccc" stroke-width="1"/>
+  <text x="485" y="472" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#2C3E50">Participants</text>
+  
+  <rect x="620" y="450" width="250" height="30" rx="5" ry="5" fill="#d1e8f7" stroke="#cccccc" stroke-width="1"/>
+  <text x="745" y="472" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#2C3E50">Sample Size</text>
+  
+  <rect x="100" y="480" width="250" height="40" rx="0" ry="0" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+  <text x="225" y="505" font-family="Arial" font-size="14" text-anchor="middle" fill="#2C3E50">40 primary care clinics in Japan</text>
+  
+  <rect x="360" y="480" width="250" height="40" rx="0" ry="0" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+  <text x="485" y="505" font-family="Arial" font-size="14" text-anchor="middle" fill="#2C3E50">Outpatients with hazardous drinking (AUDIT-C ≥5 for men, ≥4 for women)</text>
+  
+  <rect x="620" y="480" width="250" height="40" rx="0" ry="0" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+  <text x="745" y="505" font-family="Arial" font-size="14" text-anchor="middle" fill="#2C3E50">Ultra-BI: n=531 | SAO: n=602</text>
+  
+  <!-- Comparison Section -->
+  <rect x="40" y="560" width="944" height="160" rx="5" ry="5" fill="#f0f0f0" stroke="#cccccc" stroke-width="1"/>
+  
+  <!-- Comparison Icon -->
+  <circle cx="70" cy="590" r="20" fill="#2073ac"/>
+  <text x="70" y="597" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#ffffff">⚖</text>
+  
+  <text x="100" y="590" font-family="Arial" font-size="20" font-weight="bold" fill="#2073ac">
+    <tspan x="100" y="590">Comparison</tspan>
+  </text>
+  
+  <!-- Ultra-BI Group -->
+  <rect x="100" y="610" width="400" height="90" rx="5" ry="5" fill="#16A085" stroke="#cccccc" stroke-width="1"/>
+  <text x="300" y="635" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#ffffff">Ultra-BI</text>
+  
+  <!-- Ultra-BI Icon -->
+  <circle cx="140" cy="655" r="20" fill="#ffffff"/>
+  <text x="140" y="662" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#16A085">👨‍⚕️</text>
+  
+  <text x="320" y="655" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">
+    <tspan x="320" y="655">1. AUDIT screening</tspan>
+    <tspan x="320" y="675">2. Brief oral advice (1 minute)</tspan>
+    <tspan x="320" y="695">3. Alcohol reduction leaflet</tspan>
+  </text>
+  
+  <!-- SAO Group -->
+  <rect x="520" y="610" width="400" height="90" rx="5" ry="5" fill="#F39C12" stroke="#cccccc" stroke-width="1"/>
+  <text x="720" y="635" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#ffffff">SAO</text>
+  
+  <!-- SAO Icon -->
+  <circle cx="560" cy="655" r="20" fill="#ffffff"/>
+  <text x="560" y="662" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#F39C12">📝</text>
+  
+  <text x="740" y="655" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">
+    <tspan x="740" y="655">1. AUDIT-C screening only</tspan>
+    <tspan x="740" y="675">2. No advice or leaflet</tspan>
+    <tspan x="740" y="695">3. Standard care</tspan>
+  </text>
+  
+  <!-- Outcomes Section -->
+  <rect x="40" y="740" width="944" height="260" rx="5" ry="5" fill="#f0f0f0" stroke="#cccccc" stroke-width="1"/>
+  
+  <!-- Outcomes Icon -->
+  <circle cx="70" cy="770" r="20" fill="#2073ac"/>
+  <text x="70" y="777" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#ffffff">📊</text>
+  
+  <text x="100" y="770" font-family="Arial" font-size="20" font-weight="bold" fill="#2073ac">
+    <tspan x="100" y="770">Outcomes</tspan>
+  </text>
+  
+  <!-- Primary Outcome -->
+  <text x="100" y="800" font-family="Arial" font-size="16" font-weight="bold" fill="#2C3E50">
+    <tspan x="100" y="800">Primary: Total Alcohol Consumption (24 weeks)</tspan>
+  </text>
+  
+  <!-- Bar Chart for Primary Outcome -->
+  <!-- Ultra-BI Bar -->
+  <rect x="150" y="820" width="100" height="120" fill="#16A085"/>
+  <!-- Error Bar Upper -->
+  <line x1="200" y1="820" x2="200" y2="800" stroke="#2C3E50" stroke-width="2"/>
+  <line x1="190" y1="800" x2="210" y2="800" stroke="#2C3E50" stroke-width="2"/>
+  <!-- Error Bar Lower -->
+  <line x1="200" y1="940" x2="200" y2="960" stroke="#2C3E50" stroke-width="2"/>
+  <line x1="190" y1="960" x2="210" y2="960" stroke="#2C3E50" stroke-width="2"/>
+  
+  <!-- SAO Bar -->
+  <rect x="300" y="820" width="100" height="117" fill="#F39C12"/>
+  <!-- Error Bar Upper -->
+  <line x1="350" y1="820" x2="350" y2="800" stroke="#2C3E50" stroke-width="2"/>
+  <line x1="340" y1="800" x2="360" y2="800" stroke="#2C3E50" stroke-width="2"/>
+  <!-- Error Bar Lower -->
+  <line x1="350" y1="937" x2="350" y2="957" stroke="#2C3E50" stroke-width="2"/>
+  <line x1="340" y1="957" x2="360" y2="957" stroke="#2C3E50" stroke-width="2"/>
+  
+  <text x="200" y="980" font-family="Arial" font-size="14" text-anchor="middle" fill="#2C3E50">Ultra-BI</text>
+  <text x="200" y="1000" font-family="Arial" font-size="14" text-anchor="middle" fill="#2C3E50">1046.9g/4 weeks</text>
+  
+  <text x="350" y="980" font-family="Arial" font-size="14" text-anchor="middle" fill="#2C3E50">SAO</text>
+  <text x="350" y="1000" font-family="Arial" font-size="14" text-anchor="middle" fill="#2C3E50">1019.0g/4 weeks</text>
+  
+  <text x="250" y="1020" font-family="Arial" font-size="14" text-anchor="middle" fill="#2C3E50">Difference: 27.8g/4 weeks (95% CI -149.7 to 205.4)</text>
+  <text x="250" y="1040" font-family="Arial" font-size="14" text-anchor="middle" fill="#2C3E50">p=0.76, Bayes factor: 0.08±0.25</text>
+  
+  <!-- Secondary Outcome -->
+  <text x="600" y="800" font-family="Arial" font-size="16" font-weight="bold" fill="#2C3E50">
+    <tspan x="600" y="800">Secondary: Readiness to Change</tspan>
+  </text>
+  
+  <!-- Line Graph for Secondary Outcome -->
+  <!-- Axes -->
+  <line x1="550" y1="940" x2="850" y2="940" stroke="#2C3E50" stroke-width="2"/> <!-- X-axis -->
+  <line x1="550" y1="940" x2="550" y2="820" stroke="#2C3E50" stroke-width="2"/> <!-- Y-axis -->
+  
+  <!-- Ultra-BI Line -->
+  <polyline points="550,900 700,860 850,880" fill="none" stroke="#16A085" stroke-width="3"/>
+  
+  <!-- SAO Line -->
+  <polyline points="550,900 700,890 850,900" fill="none" stroke="#F39C12" stroke-width="3"/>
+  
+  <!-- Error Bars -->
+  <!-- 12 weeks Ultra-BI -->
+  <line x1="700" y1="860" x2="700" y2="845" stroke="#2C3E50" stroke-width="1"/>
+  <line x1="695" y1="845" x2="705" y2="845" stroke="#2C3E50" stroke-width="1"/>
+  <line x1="700" y1="860" x2="700" y2="875" stroke="#2C3E50" stroke-width="1"/>
+  <line x1="695" y1="875" x2="705" y2="875" stroke="#2C3E50" stroke-width="1"/>
+  
+  <!-- 24 weeks Ultra-BI -->
+  <line x1="850" y1="880" x2="850" y2="865" stroke="#2C3E50" stroke-width="1"/>
+  <line x1="845" y1="865" x2="855" y2="865" stroke="#2C3E50" stroke-width="1"/>
+  <line x1="850" y1="880" x2="850" y2="895" stroke="#2C3E50" stroke-width="1"/>
+  <line x1="845" y1="895" x2="855" y2="895" stroke="#2C3E50" stroke-width="1"/>
+  
+  <!-- Labels -->
+  <text x="550" y="960" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">Baseline</text>
+  <text x="700" y="960" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">12 weeks</text>
+  <text x="850" y="960" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">24 weeks</text>
+  
+  <text x="700" y="980" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">12 weeks: p=0.003, Hedge's g 0.21 (95% CI 0.10 to 0.33)</text>
+  <text x="700" y="1000" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">24 weeks: p=0.005, Hedge's g 0.16 (95% CI 0.05 to 0.28)</text>
+  
+  <!-- Legend -->
+  <rect x="600" y="920" width="15" height="15" fill="#16A085"/>
+  <text x="625" y="932" font-family="Arial" font-size="12" fill="#2C3E50">Ultra-BI</text>
+  
+  <rect x="700" y="920" width="15" height="15" fill="#F39C12"/>
+  <text x="725" y="932" font-family="Arial" font-size="12" fill="#2C3E50">SAO</text>
+  
+  <!-- Footer -->
+  <text x="512" y="1020" font-family="Arial" font-size="12" text-anchor="middle" fill="#2C3E50">
+    Ryuhei So, et al. | medRxiv 2024.12.27.24319613
+  </text>
+</svg>
