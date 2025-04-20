@@ -21,8 +21,7 @@ groups = ['Ultra-BI', 'SAO']
 values = [1046.9, 1019.0]
 se = [90.0, 90.0]  # Estimated from the paper's CI
 
-ax.text(0.5, 0.85, 'Difference: 27.8g/4 weeks (95% CI -149.7 to 205.4), p=0.76', 
-        ha='center', va='center', transform=ax.transAxes, fontsize=16)  # Increased from 12
+ax.set_title('Primary Outcome: Total Alcohol Consumption (24 weeks)', fontweight='bold', fontsize=16)
 
 x_pos = np.arange(len(groups))
 bars = ax.bar(x_pos, values, align='center', alpha=0.8, width=0.6, 
@@ -56,8 +55,7 @@ groups = ['Ultra-BI', 'SAO']
 values = [2.1, 1.9]  # Absolute values
 se = [0.05, 0.05]  # Estimated from the paper's CI
 
-ax.text(0.5, 0.85, 'Difference: 0.2 (95% CI 0.1 to 0.3), p=0.005', 
-        ha='center', va='center', transform=ax.transAxes, fontsize=16)  # Increased from 12
+ax.set_title('Secondary Outcome: Readiness to Change (24 weeks)', fontweight='bold', fontsize=16)
 
 x_pos = np.arange(len(groups))
 bars = ax.bar(x_pos, values, align='center', alpha=0.8, width=0.6, 
