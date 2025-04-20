@@ -11,8 +11,13 @@
 
 ## Key Findings to Highlight
 1. Ultra-BI did not significantly reduce alcohol consumption compared to SAO
+   - At 24 weeks: Ultra-BI (1046.9g/4 weeks) vs SAO (1019.0g/4 weeks)
+   - Difference: 27.8g/4 weeks (95% CI -149.7 to 205.4)
+   - Bayes factor analysis (0.08±0.25) strongly supported the null hypothesis
 2. Ultra-BI did improve readiness to change drinking habits
-3. Bayes factor analysis supported the null hypothesis for total alcohol consumption
+   - At 12 weeks: difference 0.30 (95% CI 0.10 to 0.40); Hedge's g 0.21 (95% CI 0.10 to 0.33)
+   - At 24 weeks: difference 0.20 (95% CI 0.10 to 0.30); Hedge's g 0.16 (95% CI 0.05 to 0.28)
+3. Conclusion: Ultra-BI may be effective for improving motivation but not actual consumption
 
 ## Visual Abstract Design Plan
 - **Layout**: Three-panel design following CDC best practices
