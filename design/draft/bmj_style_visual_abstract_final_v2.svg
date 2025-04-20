@@ -80,7 +80,13 @@
   <text x="300" y="575" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#ffffff">Ultra-BI</text>
   
   <!-- Ultra-BI Image -->
-  <image x="120" y="590" width="360" height="90" preserveAspectRatio="xMidYMid meet" xlink:href="ultra_bi_image.png"/>
+  <rect x="120" y="590" width="360" height="90" fill="#ffffff" opacity="0.9"/>
+  <text x="300" y="635" font-family="Arial" font-size="14" text-anchor="middle" fill="#27ae60" font-weight="bold">
+    AUDIT screening + brief oral advice + leaflet
+  </text>
+  <text x="300" y="655" font-family="Arial" font-size="12" text-anchor="middle" fill="#333333">
+    (Image will be added separately to the submission)
+  </text>
   
   <!-- SAO Group -->
   <rect x="520" y="550" width="400" height="140" rx="5" ry="5" fill="#e67e22" stroke="#cccccc" stroke-width="1"/>
